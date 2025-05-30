@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background:  #03061c ;
+    opacity: 0.9;
+}
+
+.card {
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #04e5bf 50%
+, #3b47e9 90%);
+    color: #000c07;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+.card .title{
+    padding: 10px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.card .input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+.card #city {
+    flex: 1;
+    background-color: white;
+    border: 1.5px solid rgba(0,0,0,0.4);
+    outline: none;
+    height: 38px;
+    padding: 8px 10px;
+    width: 60%;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+
+    
+}
+
+.card #city:focus {
+    box-shadow: 0px 0px 4px #015b7e;
+}
+
+img {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.info {
+    color: #09184f;
+}
+
+.card .input #info-button {
+    width: 20%;
+    background-color: #09184f;
+    color: white;
+    padding: 7px 10px;
+    font-size: 16px;
+    outline: none;
+    border: #015b7e;
+    position: relative;
+    left: -5px;
+    border-radius: 2px 5px 5px 2px;
+    height: 40px;
+    cursor: pointer;
+    margin: 0 auto;
+
+    
+}
+
+.card .input #info-button:hover, .container .input #info-button:active {
+    background-color: #026351;
+    box-shadow: 0px 0px 2px #015b7e;
+
+}
+
+.card .info {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.temp {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#c {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+#weather-info {
+    font-size: 25px;
+    padding:  8px;
+    font-weight: 600;
+
+}
+
+#location {
+    font-size: 20px;
+    font-weight: 400;
+}
+
