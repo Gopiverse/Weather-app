@@ -1,5 +1,5 @@
-// import { API_KEY } from './config.js'
-const API_KEY = "2ad01f5b735e064bda95c1a39d90bf83";
+import { API_KEY } from './config.js'
+
 
 let inputLoc = document.getElementById("city");
 let inputTemp = document.getElementById("temperature");
